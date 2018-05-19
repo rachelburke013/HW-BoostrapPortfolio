@@ -12,6 +12,12 @@ body {
 
 /* general */
 
+#navbar {
+  width: 100%;
+  text-align: center;
+
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -21,7 +27,6 @@ body {
 
 h1,
 h2,
-h3,
 p {
   margin-bottom: 20px;
 }
@@ -31,8 +36,7 @@ p:last-child {
 }
 
 h1,
-h2,
-h3 {
+h2, {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -45,9 +49,16 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
-h2,
-h3 {
+h2,{
   font-size: 22px;
+}
+
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  font-size: 30px;
+
 }
 
 /* header */
@@ -77,10 +88,6 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
-  float: right;
-  margin-top: 25px;
-}
 
 nav a {
   display: inline-block;
@@ -120,7 +127,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 20px;
   min-height: calc(100vh - 70px);
 }
 
